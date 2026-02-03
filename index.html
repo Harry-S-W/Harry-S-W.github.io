@@ -202,6 +202,54 @@
 
         <div class="mt-24 border-t border-zinc-100 pt-24">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div class="relative aspect-image bg-zinc-100 rounded-3xl overflow-hidden border border-zinc-200 group">
+                <img src="images/praat-example.png" alt="Example of Praat software" 
+                    class="w-full h-full object-cover scale-110 group-hover:scale-115 transition duration-700">
+                
+                <div class="absolute bottom-4 left-4">
+                    <span class="bg-black/60 backdrop-blur-md text-[10px] uppercase tracking-widest px-3 py-1.5 rounded-full text-white border border-white/20">
+                        Praat Example
+                    </span>
+                </div>
+                
+            </div>
+            <div class="space-y-6">
+                <div class="inline-block px-3 py-1 rounded-full bg-zinc-100 text-xs font-bold uppercase tracking-wider text-zinc-600">
+                    Active Development
+                </div>
+                <h3 class="text-3xl font-extrabold tracking-tight">RustMouth</h3>
+                <p class="text-lg text-zinc-600 leading-relaxed">
+                    RustMouth is a Praat API for the Rust programming language. It was started on 02/02/2026 and is released as version 0.0.3 as a Rust Crate. It is 
+                    currently heavily experimental and is for MacOS only (soon to be multi-platform). It is made up of the low level praat-sys package which compiles Praat
+                    into a library and crawls for all cpp headers and rustmouth, the actual API.
+                </p>
+                
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-sm text-zinc-500">
+                        <span class="h-1 w-1 bg-black rounded-full"></span>
+                        Built using Rust and C++
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-zinc-500">
+                        <span class="h-1 w-1 bg-black rounded-full"></span>
+                        You can use all Praat commands in a Rust script!
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-zinc-500">
+                        <span class="h-1 w-1 bg-black rounded-full"></span>
+                        Current release: v0.0.3
+                    </li>
+                </ul>
+
+                <div class="pt-4">
+                    <a href="https://github.com/Harry-S-W/MOSAIC" target="_blank" class="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-zinc-800 transition">
+                        View Source Code <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="mt-24 border-t border-zinc-100 pt-24">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div class="relative aspect-video bg-zinc-100 rounded-3xl overflow-hidden border border-zinc-200 group">
                 <img src="images/ema-use.png" alt="Carstens AG501 Articulograph sensor applied to participants upper lip." 
                     class="w-full h-full object-cover scale-110 group-hover:scale-115 transition duration-700">
